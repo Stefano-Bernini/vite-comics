@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<template lang="">
+<template>
     <header class="container">
         <div class=" flex justify-between align-center">
             <a href="/">
