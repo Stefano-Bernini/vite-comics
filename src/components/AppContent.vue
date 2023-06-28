@@ -1,10 +1,10 @@
 <script>
 import dcComics from '../data/dc-comics.js';
-import Comics from './AppCard.vue';
+import AppCard from './AppCard.vue';
 
 export default {
     components:{
-        Comics
+        AppCard
   },
 
   data(){
@@ -25,7 +25,7 @@ export default {
                   <div class="col">
                       <div class="contents">
                         <div class="comics">
-                          <Comics class="card" v-for="(comic, index) in dcComics" :key="index" :comic="comic" />
+                          <AppCard class="card" v-for="(comic, index) in dcComics" :key="index" :comic="comic" />
                         </div>
                         <button>load more</button>
                         <div class="badge">current series</div>
