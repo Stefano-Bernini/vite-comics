@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .container {
@@ -41,15 +41,6 @@ a {
     align-items: center;
 }
 
-main {
-    padding: 60px 0 60px 0;
-    background-color: black;
-}
-
-img {
-    width: 100%;
-}
-
 ul li {
     list-style-type: none;
 }
@@ -62,16 +53,23 @@ ul li {
     align-items: center;
 }
 
-.space-between {
+.between-align {
     align-items: center;
     justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
 .pt {
     padding-top: 25px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.white {
+    color: white;
 }

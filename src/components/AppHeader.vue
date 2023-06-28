@@ -85,8 +85,6 @@ export default {
     }
 
     header{
-        padding: 20px 0;
-
 
         ul li{
             display: inline-block;
@@ -94,7 +92,7 @@ export default {
             border-bottom: 5px solid white;
 
             a{
-                font-size: 20px;
+                font-size: 15px;
                 font-weight: 600;
             }
 
@@ -106,5 +104,9 @@ export default {
                 color: rgb(27,114,232);
             }
         }
+    }
+
+    img{
+        max-width: 79%;
     }
 </style>

@@ -213,10 +213,10 @@ export default {
                 <div class="content">
                     <ul class="flex">
                         <li :key="index" v-for="(blueInfos, index) in blueInfos" class="flex align-center">
-                            <div class="img-container">
+                            <div class="img-container pointer">
                                 <img :src="blueInfos.immg" :alt="blueInfos.lable">
                             </div>
-                            <h4 class="uppercase">{{ blueInfos.lable }}</h4>
+                            <h4 class="uppercase pointer white">{{ blueInfos.lable }}</h4>
                         </li>
                     </ul>
                 </div>
@@ -233,7 +233,7 @@ export default {
                                     <a :href="obj.link" >{{ obj.label }}</a>
                                 </li>
                             </ul>
-                            <h2 class="lil uppercase">shop</h2>
+                            <h2 class="mt uppercase">shop</h2>
                             <ul>
                                 <li v-for="(obj, index) in list" :key="index">
                                     <a :href="obj.link" >{{ obj.label }}</a>
@@ -249,7 +249,7 @@ export default {
                             </ul>
                         </div>
                         <div class="footer-three">
-                            <h2 class="uppercase">dc</h2>
+                            <h2 class="uppercase">site</h2>
                             <ul>
                                 <li v-for="(obj, index) in sites" :key="index">
                                     <a :href="obj.link" >{{ obj.label }}</a>
@@ -263,7 +263,7 @@ export default {
         </div>
         <div class="jumbotron-social">
             <div class="container">
-                <div class="flex space-between">
+                <div class="flex between-align">
                     <div class="">
                         <button class="uppercase btn">sign-up now!</button>
                     </div>
@@ -285,7 +285,7 @@ export default {
 
 <style lang="scss" scoped>
     .jumbotron-blue {
-        background-color: #0282F9;
+        background-color: rgb(27, 114, 232);
         padding: 50px 0px;
     }
 
@@ -303,23 +303,23 @@ export default {
         background-size: cover;
     }
     .jumbotron-social{
-        background-color: #303030;
+        background-color: rgb(48,48,48);
         padding: 30px 0px;
     }
     h2{
         margin-bottom: 10px;
-        color: #fff;
+        color: white;
     }
     li{
         margin-bottom: 5px;
     }
     a{
-        color: #959595;
+        color: grey;
     }
     a:hover{
-        color: #fff;
+        color: white;
     }
-    .lil{
+    .mt{
         margin-top: 30px;
     }
     .footer-three, .footer-two{
@@ -338,14 +338,14 @@ export default {
         padding-top: 50px;
     }
     .btn{
-        border: 1px solid #0282F9;
+        border: 1px solid rgb(27, 114, 232);
         padding: 8px 15px;
         background-color: transparent;
-        color: #fff;
+        color: white;
         font-weight: 600;
     }
     .follow{
-        color: #0282F9;
+        color: rgb(27, 114, 232);
         font-weight: 600;
         margin-right: 30px;
     }
